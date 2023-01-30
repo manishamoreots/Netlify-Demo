@@ -4,14 +4,14 @@
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^3.1.1"
   },
-  "type": "module",
+ 
   "name": "netlify-demo",
   "description": "",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda/serve src",
-    "build": "./node_modules/.bin/netlify-lambda/build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
